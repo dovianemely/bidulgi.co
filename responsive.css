@@ -1,5 +1,5 @@
 /*for tablets*/
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1000px) {
     .feature {
         
         float:left;
@@ -31,5 +31,5 @@
     .mid h1, .bot {
         text-align: center;
     }
-     
+  
 }
