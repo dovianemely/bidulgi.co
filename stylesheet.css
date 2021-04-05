@@ -163,22 +163,25 @@ color:rgb(41, 41, 41);
     padding-bottom:400px;
 }
 
+    
+
 
 .contact {
-    background-color:#865665;
-    box-shadow: 0 7px #50323b;
-    cursor: pointer;
+    display:inline-block;
     color: white;
-    padding:20px 30px;
     font-family:ubuntu;
     font-size:30px;
+    background-color:#865665;
+    box-shadow: 0 7px #50323b;
+    padding:20px 30px;
+    width:auto;
+    cursor: pointer;
 }
 
 .contact:active{
     position:relative;
     box-shadow:none;
     top:7px;
-    
 }
 
 footer {
