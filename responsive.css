@@ -31,8 +31,9 @@
     .mid h1, .bot {
         text-align: center;
     }
-.top {
-Padding-top: 145px;
+.top, .bot {
+Padding-top: 140px;
+Padding-bottom: 140px
 }
 
 
