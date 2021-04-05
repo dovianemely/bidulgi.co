@@ -1,0 +1,35 @@
+/*for tablets*/
+@media all and (max-width: 1200px) {
+    .feature {
+        
+        float:left;
+        width: 50%;
+        flex:auto;
+        margin:0 auto;
+    }
+    header .menu-icon {
+        display: none;
+    }
+}
+
+/*for phones*/
+@media all and (max-width: 670px) {
+    .feature {
+        
+        float:left;
+        width: 100%;
+        flex:auto;
+        margin:0 auto;
+    
+    }
+    .header-right {
+        display: none;
+    }
+    header .menu-icon {
+        display:block;
+    }
+    .mid h1, .bot {
+        text-align: center;
+    }
+  
+}
